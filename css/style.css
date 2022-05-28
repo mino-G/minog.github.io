@@ -1,0 +1,27 @@
+
+.f-size p.px {
+  font-size: 40px;
+  /* 絶対値 */
+
+}
+.f-size {
+  font-size: 10px;
+}
+.f-size p.em {
+  font-size: 4em;
+  /* emは相対値で、親要素を基準にサイズを決定すする。 */
+}
+
+html {
+  font-size: 50%;
+}
+.f-size p.rem {
+  font-size: 3rem;
+  /* remは相対値で、htmlを基準にサイズを決定する。
+  基準(100%)は16pxである。 */
+}
+
+.f-weight p.bold {
+  font-size: 6rem;
+  font-weight: 900;
+}
